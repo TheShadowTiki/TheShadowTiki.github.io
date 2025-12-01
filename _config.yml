@@ -9,9 +9,11 @@ last_name: Zekri
 contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Researcher in Computational Neuroscience & ML
+# TODO: Update description to be more specific for SEO
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
 keywords: neuroscience, machine learning, SNNs, manifolds # add your own keywords or leave empty
+# TODO: Update keywords for better SEO matching your research interests
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🧠 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -63,6 +65,7 @@ max_width: 930px
 serve_og_meta: false # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
+# TODO: Add a custom Open Graph image (e.g., your research diagram) for social sharing
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

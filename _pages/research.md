@@ -8,6 +8,8 @@ nav_order: 2
 
 ## Overview
 
+<!-- TODO: Add graphical abstract/diagram here -->
+
 **The Question:** How do biological circuits implement the computation required for flexible behavior?
 
 My work combines mathematical theory, high-performance computing, and biological constraints to investigate the mechanistic basis of neural computation. I am specifically interested in how neural circuits infer and maintain latent representations of the environment to support zero-shot and few-shot learning.
