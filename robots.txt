@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://theshadowtiki.github.io/sitemap.xml
+Sitemap: https://TheShadowTiki.github.io/sitemap.xml
