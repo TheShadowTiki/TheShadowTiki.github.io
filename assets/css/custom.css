@@ -1,0 +1,10 @@
+/* Typography Overrides */
+body {
+    font-family: 'Merriweather', serif;
+}
+h1, h2, h3, h4, nav {
+    font-family: 'Inter', sans-serif;
+}
+a {
+    color: #2698ba;
+}

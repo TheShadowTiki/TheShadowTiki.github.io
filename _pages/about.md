@@ -1,34 +1,35 @@
 ---
-layout: about
-title: about
-permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+layout: page
+title: About
+permalink: /about/
+nav: true
+nav_order: 6
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## Motivation: The Systems Lens
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I came to neuroscience via mathematics and logic, driven by a fascination with how rigorous formal systems give rise to the messiness of adaptive behavior.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My intellectual inflection point occurred during a course on **Computer Architecture**, where we systematically analyzed the datapath and control logic powering the fetch-decode-execute cycle. Understanding how a computer’s complex function emerges from structured components with defined roles reshaped how I view the brain.
+
+Since we cannot yet build a brain in the lab, I chose the next best path: acquiring the mathematical and computational tools to model its principles *in silico*. I view the brain through a "systems lens"—where solutions to complex problems (like water scarcity or motor control) are found not in the components themselves, but in their topological organization and dynamic interplay.
+
+## Integrated Research Approach
+
+My objective is to investigate neural computation by integrating **structure**, **dynamics**, and **theory**. My undergraduate research has focused on building competence in each of these distinct levels of analysis:
+
+### 1. The Structural Hardware (Connectomics)
+**At the ADCL (Spirou Lab)**  
+To understand the circuit, we must first map the wires. My work in EM segmentation and High-Performance Computing has focused on characterizing the structural constraints that limit and guide neural computation.
+
+### 2. The Dynamical Software (Manifolds & SNNs)
+**At CSHL (Zador Lab) & TKAI (Mali Lab)**  
+Structure enables dynamics. At CSHL, I investigated how weight manifolds support generalization, and at TKAI, I am using evolutionary algorithms to identify the specific biological motifs that allow stable population dynamics to emerge from static connectivity.
+
+### 3. The Theoretical Objective (MDL & Predictive Coding)
+**At TKAI (Mali Lab)**  
+Dynamics must serve a purpose. I am exploring theoretical frameworks like Minimum Description Length (MDL) and Predictive Coding to explore the normative principles guiding learning—investigating how circuits might optimize information efficiency to build latent representations of the world.
+
+## Future Outlook
+
+As a PhD student, I aim to advance mechanistic models of cognition. By investigating the circuit-level principles of latent state inference, I hope to contribute to the design of interpretable, energy-efficient AI and explore principled rewiring strategies for restoring function in neurological disorders.
